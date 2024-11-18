@@ -1,0 +1,20 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    gap: 24px;
+}
+.gallery-image {
+    object-fit: cover;
+    transition: tranform 0.2s ease;
+}
+
+.basicLightbox {
+    background-color: rgba(46, 47, 66, 0.8);
+}
